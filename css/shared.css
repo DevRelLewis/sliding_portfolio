@@ -15,14 +15,14 @@ body {
     line-height: 1.42857143;
     color: #333;
     background: url(/Img/large_A_avengers.jpeg);
-    background-repeat: no-repeat, repeat;
+    /* background-repeat: no-repeat, repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     width: 100%;
-    display: block;
+    display: block; */
 }
 
 footer,
