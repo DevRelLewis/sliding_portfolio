@@ -14,7 +14,8 @@ body {
     font-family: "Helvetica Neue" , Helvetica, Arial, sans-serif;
     line-height: 1.42857143;
     color: #333;
-    background: url(/Img/large_A_avengers.jpeg) no-repeat 50% 50%;
+    background: url(/Img/large_A_avengers.jpeg);
+    background-repeat: no-repeat, repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
