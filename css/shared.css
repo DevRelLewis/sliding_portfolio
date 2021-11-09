@@ -14,7 +14,14 @@ body {
     font-family: "Helvetica Neue" , Helvetica, Arial, sans-serif;
     line-height: 1.42857143;
     color: #333;
-    background-color: #fff;
+    background: url(/Img/large_A_avengers.jpeg) no-repeat 50% 50%;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    display: block;
 }
 
 footer,
@@ -39,7 +46,7 @@ h1 {
 h1::after { /*This is the underline*/
     display: block;
     content: "";
-    height: 2px
+    height: 2px;
     width: 150px;
     background: #E91C1C;
     margin: 5px auto 40px;
@@ -139,14 +146,6 @@ section {
 }
 
 #home {
-    background: url(/Img/large_A_avengers.jpeg) no-repeat 50% 50%;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    width: 100%;
-    display: block;
     height: auto;
     padding-top: 350px; /*This is the spacer before the Main title Logo*/
     padding-bottom: 500px; /*This is the spacer after the main title Logo*/
